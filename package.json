@@ -8,6 +8,14 @@
   },
   "dependencies": {
     "express": "^4.18.2",
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "@mysten/sui": "^1.0.0",
+    "@mysten/sui/client": "^1.0.0",
+    "@mysten/sui/transactions": "^1.0.0",
+    "@mysten/sui/keypairs": "^1.0.0",
+    "@mysten/sui/utils": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
