@@ -1,0 +1,17 @@
+{
+  "name": "aidefi",
+  "version": "1.0.0",
+  "description": "AI Agent DeFi Yield Optimizer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "@mysten/sui": "^1.45.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
